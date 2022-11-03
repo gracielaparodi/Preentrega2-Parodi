@@ -6,10 +6,6 @@ import BodyApp from "./components/BodyApp";
 
 export default function App() {
 
-  function funcionLogin() {
-    alert("You have successfully logged in");
-  }
-
   return (
     <div>
       <Navbar color={"#FE86BC"} />
