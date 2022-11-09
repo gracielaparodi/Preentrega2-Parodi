@@ -6,9 +6,9 @@ import Instagram from './Assets/Imagenes/instagram1.jpg';
 export default function Footer() {
     return (
         <div class="redes">
-            <div class="redes1"> <a href="https://es-la.facebook.com/"> <img src={Facebook} /></a></div>
-            <div class="redes1"><a href="https://twitter.com/"><img src={Twitter} /></a></div>
-            <div class="redes1"> <a href="https://www.instagram.com/"> <img src={Instagram} /></a></div>
+            <div class="redes1"> <a href="https://es-la.facebook.com/"> <img src={Facebook} alt="facebook" /></a></div>
+            <div class="redes1"><a href="https://twitter.com/"><img src={Twitter} alt="twitter" /></a></div>
+            <div class="redes1"> <a href="https://www.instagram.com/"> <img src={Instagram} alt="instagram" /></a></div>
         </div >
     )
 }
